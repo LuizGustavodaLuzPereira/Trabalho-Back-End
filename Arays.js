@@ -2,7 +2,7 @@
 // CONTROLE DE PACOTES (ENTREGAS)
 // ===============================
 
-// Array com 5 objetos (formato JSON)
+// PACOTES (Aray)
 let pacotes = [
     { codigo: 101, destino: "São Paulo", pesoKg: 12.5 },
     { codigo: 102, destino: "Curitiba", pesoKg: 7.3 },
@@ -12,7 +12,7 @@ let pacotes = [
 ];
 
 // ===============================
-// FUNÇÃO PARA LISTAR PACOTES
+// Listas Dos PACOTES
 // ===============================
 function listarPacotes(lista) {
     console.log("PACOTES NO GALPÃO:");
@@ -27,8 +27,8 @@ function listarPacotes(lista) {
 }
 
 // ===============================
-// ORDENAÇÃO - INSERTION SORT
-// Do mais leve para o mais pesado
+// Ordem dos PACOTES
+// Do mais LEVE ao PESADO
 // ===============================
 function ordenarPorPeso(lista) {
 
@@ -48,9 +48,9 @@ function ordenarPorPeso(lista) {
     return lista;
 }
 
-// ===============================
-// BUSCA BINÁRIA POR CÓDIGO
-// ===============================
+// =====================================
+// Busca por CÓDIGO do PACOTE (BINARIO)
+// =====================================
 function buscaBinaria(lista, codigoBuscado) {
 
     let inicio = 0;
@@ -75,21 +75,21 @@ function buscaBinaria(lista, codigoBuscado) {
 }
 
 // ===============================
-// EXECUÇÃO DO SISTEMA
+// SISTEMA
 // ===============================
 
-// Mostrar pacotes originais
+// PACOTES ORIGINAIS
 listarPacotes(pacotes);
 
 console.log("\nPACOTES ORDENADOS POR PESO:\n");
 
-// Ordenar por peso
+// PACOTES ordenados por peso(kg)
 ordenarPorPeso(pacotes);
 
-// Mostrar pacotes ordenados
+// Mostrar PACOTES ordenados
 listarPacotes(pacotes);
 
-// Busca binária
+// Busca BINARIA (PACOTES)
 console.log("\nBUSCA DE PACOTE:\n");
 
 let codigoProcurado = 103;
