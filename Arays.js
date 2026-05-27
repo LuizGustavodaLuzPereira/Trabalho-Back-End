@@ -12,7 +12,7 @@ let pacotes = [
 ];
 
 // ===============================
-// Listas Dos PACOTES
+// Listas Dos PACOTES (Console.log)
 // ===============================
 function listarPacotes(lista) {
     console.log("PACOTES NO GALPÃO:");
@@ -27,8 +27,8 @@ function listarPacotes(lista) {
 }
 
 // ===============================
-// Ordem dos PACOTES
-// Do mais LEVE ao PESADO
+// Ordem dos PACOTES (LISTA)
+// Do mais LEVE ao PESADO (Kg)
 // ===============================
 function ordenarPorPeso(lista) {
 
@@ -75,7 +75,7 @@ function buscaBinaria(lista, codigoBuscado) {
 }
 
 // ===============================
-// SISTEMA
+// SISTEMA DE LISTAS
 // ===============================
 
 // PACOTES ORIGINAIS
